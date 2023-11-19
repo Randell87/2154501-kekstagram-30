@@ -81,7 +81,7 @@ const renderPicture = ({ url, description, likes }) => {
 
 const showPicture = (pictureData) => {
   bigPictureElement.classList.remove('hidden'); //картинка появляется
-  bodyElement.classList.add('modal-open'); //модальное окно открывается
+  bodyElement.classList.add('modal-open');
   document.addEventListener('keydown', onEscKeydown);
 
   comments = pictureData.comments;
